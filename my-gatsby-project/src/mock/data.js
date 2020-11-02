@@ -31,7 +31,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'eaglefitness.jpg',
     title: 'Eagle Fitness',
     info: 'A website for a local gym in Wembley',
     info2: 'HTML | CSS | JavaScript | Bootstrap',
@@ -40,17 +40,17 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'traveltime.jpg',
     title: 'Travel Time',
     info:
       'A holiday inspiring website that allows you to search for your next holiday destination or choose a destination from our hand-picked selection.',
-    info2: 'HTML | CSS | JavaScript | Bootstrap | JQuery | Google Place/Map API',
+    info2: 'HTML | CSS | JavaScript | Bootstrap | JQuery | Google Place/Map API | EmailJS',
     url: 'https://r-prince.github.io/TravelTime/',
     repo: 'https://github.com/R-Prince/TravelTime', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'dinochat.jpg',
     title: 'Dino Chat App',
     info:
       'A simple chat app that allows users to instantly message each other using Python with a Flask Framework',
