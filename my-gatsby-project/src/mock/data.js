@@ -19,9 +19,11 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpeg',
   paragraphOne:
-    'Full Stack Developer who is recently qualified with a Diploma in Software Development from Code Institute. Proficient with Python, JavaScript, SQL, HTML and CSS. Possesses analytical thinking and working to strict deadlines from past experience in the Supply Chain sector. I love creating web applications from scratch using Python and JavaScript jumping back and forth from front-end to back-end. Currently seeking a new opportunity within a product focussed organisation where I can showcase my existing skills and progress further.',
-  paragraphTwo: '',
-  paragraphThree: '',
+    'Full Stack Developer who is recently qualified with a Diploma in Software Development from Code Institute. Proficient with Python, JavaScript, SQL, HTML and CSS. Possesses analytical thinking and working to strict deadlines from past experience in the Supply Chain sector. I love creating web applications from scratch using Python and JavaScript jumping back and forth from front-end to back-end. I’m an advocate of minimalist web design and development and try to implement as much as I can with my projects',
+  paragraphTwo:
+    'Currently seeking a Junior Developer role where I can showcase my existing skills and progress further.',
+  paragraphThree:
+    'Python, JavaScript, Django, Flask, React, Gatsby, MySQL, MongoDB, jQuery, HTML and CSS',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -42,18 +44,19 @@ export const projectsData = [
     title: 'Travel Time',
     info:
       'A holiday inspiring website that allows you to search for your next holiday destination or choose a destination from our hand-picked selection.',
-    info2: 'HTML | CSS | JavaScript | Bootstrap | jQuery | Google Place/Map API',
+    info2: 'HTML | CSS | JavaScript | Bootstrap | JQuery | Google Place/Map API',
     url: 'https://r-prince.github.io/TravelTime/',
     repo: 'https://github.com/R-Prince/TravelTime', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    title: 'Dino Chat App',
+    info:
+      'A simple chat app that allows users to instantly message each other using Python with a Flask Framework',
+    info2: 'Python | JavaScript | Flask | HTML | CSS | BootStrap',
+    url: 'https://flask-dino-chat-app.herokuapp.com/',
+    repo: 'https://github.com/R-Prince/flask-chat', // if no repo, the button will not show up
   },
 ];
 
@@ -61,7 +64,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'prince.reneldn@gmail.com',
 };
 
 // FOOTER DATA
@@ -69,23 +72,13 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/rene-prince-03a875127/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/R-Prince',
     },
   ],
 };
