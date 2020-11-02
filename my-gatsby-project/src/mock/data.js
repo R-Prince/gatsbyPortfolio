@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo:
     'Currently seeking a Junior Developer role where I can showcase my existing skills and progress further.',
   paragraphThree:
-    'Python, JavaScript, Django, Flask, React, Gatsby, MySQL, MongoDB, jQuery, HTML and CSS',
+    'Python, JavaScript, Django, Flask, React, Gatsby, MySQL, MongoDB, JQuery, HTML and CSS',
   resume: '', // if no resume, the button will not show up
 };
 
