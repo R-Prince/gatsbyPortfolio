@@ -33,7 +33,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'eaglefitness.jpg',
     title: 'Eagle Fitness',
-    info: 'A website for a local gym in Wembley',
+    info: 'A website for a local gym in Wembley.',
     info2: 'HTML | CSS | JavaScript | Bootstrap',
     url: 'https://r-prince.github.io/Eagle-Fitness/',
     repo: 'https://github.com/R-Prince/Eagle-Fitness', // if no repo, the button will not show up
@@ -53,7 +53,7 @@ export const projectsData = [
     img: 'dinochat.jpg',
     title: 'Dino Chat App',
     info:
-      'A simple chat app that allows users to instantly message each other using Python with a Flask Framework',
+      'A simple chat app that allows users to instantly message each other using Python with a Flask Framework.',
     info2: 'Python | JavaScript | Flask | HTML | CSS | BootStrap',
     url: 'https://flask-dino-chat-app.herokuapp.com/',
     repo: 'https://github.com/R-Prince/flask-chat', // if no repo, the button will not show up
